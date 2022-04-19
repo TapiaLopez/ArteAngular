@@ -1,0 +1,10 @@
+<section class="renacentismo">
+  <h2>Renacentismo</h2>
+  <figure *ngFor=" let renacentis of renacentismo">
+    <h3>{{renacentis.name}}</h3>
+<img src='{{renacentis.Image}}'/>
+<div>
+<a [routerLink]="['/renacentismo/', renacentis.id]">Saber más</a>
+</div>
+</figure>
+</section>

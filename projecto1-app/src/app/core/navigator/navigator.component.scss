@@ -1,0 +1,28 @@
+nav{
+  height: 10vh;
+
+
+  ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 10vh;
+
+li{
+  color: black;
+
+  &:hover_{
+    color: black;
+transition: 2s;
+  }
+
+  a{
+    font-size: 24px;
+    color: grey;
+    padding-top: 5%;
+    
+  }
+}
+}
+
+}

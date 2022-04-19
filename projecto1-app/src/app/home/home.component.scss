@@ -1,0 +1,32 @@
+.home{
+display: flex;
+flex-direction: column;
+
+img{
+  align-items: center;
+
+
+}
+h2{
+  align-content: center;
+    font-size: 76px;
+    color: darkgrey;
+    align-self: center;
+}
+}
+
+.categorias{
+
+  img{
+    width: 24%;
+    margin-right: 8%;
+    margin-left: 39%;
+  }
+
+  h3{
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    font-size: 34px;
+  }
+  }
